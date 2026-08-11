@@ -1,0 +1,16 @@
+{
+  "name": "login-service",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable standalone auth microservice for GHAS practice. PRIVATE REPO ONLY.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "morgan": "1.10.0",
+    "sqlite3": "^5.1.7"
+  }
+}
