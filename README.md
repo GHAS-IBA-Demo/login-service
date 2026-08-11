@@ -14,3 +14,6 @@ Standalone, intentionally vulnerable auth microservice.
 npm install
 npm start
 ```
+
+## Testing notes
+Confirmed SQL injection bypass works via `admin' --` payload (tested locally, curl).
